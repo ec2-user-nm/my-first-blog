@@ -1,6 +1,32 @@
+#A {
+    height:150px;
+    background-color:#99FF33;
+}
+
+#B {
+    width:240px;
+    min-height:500px;
+    height:auto ;
+    background-color:#99FF00;
+    position: fixed;
+    top: 10px;
+    z-index: 1;
+    margin-left:10;
+}
+
+#C { 
+    width:1080px;
+    min-height:500px;
+    height:auto;
+    float:right;
+    background-color:#99FF33;
+    margin-left:50px;
+}
+
 .page-header {
     background-color: #C25100;
-    margin-top: 0;
+    margin-top: 10;
+    margin-left:240px;
     padding: 20px 20px 20px 40px;
 }
 
@@ -11,7 +37,7 @@
 }
 
 .content {
-    margin-left: 40px;
+    margin-left: 10px;
 }
 
 h1, h2, h3, h4 {
@@ -20,6 +46,7 @@ h1, h2, h3, h4 {
 
 .date {
     color: #828282;
+    margin-top: 10px;
 }
 
 .save {
@@ -39,6 +66,7 @@ h1, h2, h3, h4 {
 
 .post {
     margin-bottom: 70px;
+    margin-left:10px;
 }
 
 .post h2 a, .post h2 a:visited {
@@ -48,3 +76,10 @@ h1, h2, h3, h4 {
 .comment {
     margin: 20px 0px 20px 20px;
 }
+
+.body {
+    width:980px;
+    margin:0 auto;
+    
+}
+
